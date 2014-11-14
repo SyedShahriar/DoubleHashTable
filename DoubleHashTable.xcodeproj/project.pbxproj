@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		781CAB0219FFE91200BD78AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 781CAB0119FFE91200BD78AA /* main.cpp */; };
 		781CAB0419FFE91200BD78AA /* DoubleHashTable.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 781CAB0319FFE91200BD78AA /* DoubleHashTable.1 */; };
+		781CAB0F19FFEA5900BD78AA /* Double_hash_table_int_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 781CAB0D19FFEA5900BD78AA /* Double_hash_table_int_driver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,13 @@
 
 /* Begin PBXFileReference section */
 		781CAAFE19FFE91200BD78AA /* DoubleHashTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DoubleHashTable; sourceTree = BUILT_PRODUCTS_DIR; };
-		781CAB0119FFE91200BD78AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		781CAB0319FFE91200BD78AA /* DoubleHashTable.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DoubleHashTable.1; sourceTree = "<group>"; };
+		781CAB0A19FFE93800BD78AA /* DoubleHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleHashTable.h; sourceTree = "<group>"; };
+		781CAB0B19FFE98500BD78AA /* exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		781CAB0C19FFE9B200BD78AA /* ece250.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ece250.h; sourceTree = "<group>"; };
+		781CAB0D19FFEA5900BD78AA /* Double_hash_table_int_driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Double_hash_table_int_driver.cpp; sourceTree = "<group>"; };
+		781CAB0E19FFEA5900BD78AA /* Double_hash_table_tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Double_hash_table_tester.h; sourceTree = "<group>"; };
+		781CAB1019FFEAB200BD78AA /* Tester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +65,13 @@
 		781CAB0019FFE91200BD78AA /* DoubleHashTable */ = {
 			isa = PBXGroup;
 			children = (
-				781CAB0119FFE91200BD78AA /* main.cpp */,
+				781CAB0A19FFE93800BD78AA /* DoubleHashTable.h */,
 				781CAB0319FFE91200BD78AA /* DoubleHashTable.1 */,
+				781CAB0B19FFE98500BD78AA /* exception.h */,
+				781CAB0C19FFE9B200BD78AA /* ece250.h */,
+				781CAB0D19FFEA5900BD78AA /* Double_hash_table_int_driver.cpp */,
+				781CAB0E19FFEA5900BD78AA /* Double_hash_table_tester.h */,
+				781CAB1019FFEAB200BD78AA /* Tester.h */,
 			);
 			path = DoubleHashTable;
 			sourceTree = "<group>";
@@ -117,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781CAB0219FFE91200BD78AA /* main.cpp in Sources */,
+				781CAB0F19FFEA5900BD78AA /* Double_hash_table_int_driver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
